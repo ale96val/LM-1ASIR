@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="Spanish">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery.js"></script>
+    <link rel="stylesheet" href="jquery1.css">
+
+  </head>
+  <body>
+    <h1>título de tipo h1</h1>
+    <table id="horario">
+      <tr>
+        <th>Lunes</th>
+        <th>Martes</th>
+        <th>Miercoles</th>
+        <th>Jueves</th>
+        <th>Viernes</th>
+      </tr>
+      <tr>
+        <td>Base de Datos</td>
+        <td>Lenguaje de Marcas</td>
+        <td>Sistemas Operativos</td>
+        <td>Lenguaje de Marcas</td>
+        <td>Sistemas Operativos</td>
+      </tr>
+      <tr>
+        <td>Base de Datos</td>
+        <td>Lenguaje de Marcas</td>
+        <td>Sistemas Operativos</td>
+        <td>Lenguaje de Marcas</td>
+        <td>Sistemas Operativos</td>
+      </tr>
+      <tr>
+        <td>Base de Datos</td>
+        <td>FOL</td>
+        <td>Sistemas Operativos</td>
+        <td>FOL</td>
+        <td>Hardware</td>
+      </tr>
+      <tr>
+        <td>Redes</td>
+        <td>Sistemas Operativos</td>
+        <td>Redes</td>
+        <td>Redes</td>
+        <td>Hardware</td>
+      </tr>
+      <tr>
+        <td>Redes</td>
+        <td>Sistemas Operativos</td>
+        <td>Redes</td>
+        <td>Redes</td>
+        <td>Hardware</td>
+      </tr>
+      <tr>
+        <td>Redes</td>
+        <td>Sistemas Operativos</td>
+        <td>Redes</td>
+        <td>Redes</td>
+        <td>FOL</td>
+      </tr>
+    </table>
+  </br>
+  </br>
+  </br>
+
+    <table id="students">
+      <tr><th>Nombre</th><th>Instituto</th><th>Direccion</th><th>Telefono</th>
+      <tr><td>Estudiante 1</td><td>Instituto 1</td><td>Direccion 1</td><td>Teléfono 1</td></tr>
+      <tr><td>Estudiante 2</td><td>Instituto 2</td><td>Direccion 2</td><td>Teléfono 2</td></tr>
+      <tr><td>Estudiante 3</td><td>Instituto 3</td><td>Direccion 3</td><td>Teléfono 3</td></tr>
+      <tr><td>Estudiante 4</td><td>Instituto 4</td><td>Direccion 4</td><td>Teléfono 4</td></tr>
+      <tr><td>Estudiante 5</td><td>Instituto 5</td><td>Direccion 5</td><td>Teléfono 5</td></tr>
+      <tr><td>Estudiante 6</td><td>Instituto 6</td><td>Direccion 6</td><td>Teléfono 6</td></tr>
+      <tr><td>Estudiante 7</td><td>Instituto 7</td><td>Direccion 7</td><td>Teléfono 7</td></tr>
+      <tr><td>Estudiante 8</td><td>Instituto 8</td><td>Direccion 8</td><td>Teléfono 8</td></tr>
+      <tr><td>Estudiante 9</td><td>Instituto 9</td><td>Direccion 9</td><td>Teléfono 9</td></tr>
+      <tr><td>Estudiante 10</td><td>Instituto 10</td><td>Direccion 10</td><td>Teléfono 10</td></tr>
+    </table>
+  </br>
+  </br>
+  </br>
+
+  <p id="p1">parrafo numero uno</p>
+  <p class="show">parrafo numero dos</p>
+  <p>parrafo numero tres</p>
+  <p class="show">parrafo numero cuatro</p>
+
+      <script type="text/javascript">
+        $(function() {
+            console.log("Ready for jQuery");
+            $("h1").addClass("claseH1");
+            $("#horario tr:first").css({"background-color":"red","color":"white"});
+            $("#students tr:odd").addClass("odd");
+            $("#students tr:not(.odd)").addClass("even");
+            $("p").hide();
+            $(".show").show();
+        });
+      </script>
+  </body>
+</html>

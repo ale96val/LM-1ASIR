@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="Spanish">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery.js"></script>
+
+  </head>
+  <body>
+      <a id="enlace1" href="http://www.google.co.uk"><h1>LINK A GOOGLE</h1></a>
+      <img id="imagen1" src="iconogoogle.jpg">
+      <table>
+        <tr><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td></tr>
+        <tr><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td></tr>
+        <tr><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td></tr>
+        <tr><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td></tr>
+        <tr><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td></tr>
+      </table>
+      <script type="text/javascript">
+        //This part is executed only when all the document is loaded
+        $(function() {
+            console.log("Ready for jQuery");
+            $("a#enlace1").attr("href","http://www.facebook.com");
+            $("img#imagen1").attr("src","iconofacebook.png");
+            $("tr:nth-child(3) td:nth-child(3)").css({"background-color":"blue"});
+            $("tr:nth-child(3) td:nth-child(3)").parent().prevAll().css({"background-color":"red"});
+            $("tr:nth-child(3) td:nth-child(3)").parent().nextAll().css({"background-color":"grey"});
+            
+            $("img").on("mouseover",function(event){
+                $(this).attr("src","iconogoogle.jpg")
+                        });
+            $("img").on("mouseleave",function(event){
+                $(this).attr("src","iconofacebook.png")
+                         });
+        });
+      </script>
+  </body>
+</html>

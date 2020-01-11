@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<agenda>
+
+	<persona id="0001">
+		<nombre> Paco </nombre>
+		<apellidos> Perez </apellidos>
+	</persona>
+
+	<persona id="0002">
+		<nombre> juan </nombre>
+		<apellidos> leon </apellidos>
+	</persona>
+
+	<persona id="0003">
+		<nombre> andres </nombre>
+		<apellidos> jimenez </apellidos>
+	</persona>
+
+	<persona id="0004">
+		<nombre> lucia </nombre>
+		<apellidos> fuertes </apellidos>
+	</persona>
+
+	<persona id="0005">
+		<nombre> andrea </nombre>
+		<apellidos> pacheco </apellidos>
+	</persona>
+	
+</agenda>

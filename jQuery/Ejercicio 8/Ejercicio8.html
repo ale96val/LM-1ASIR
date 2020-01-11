@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="Spanish">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numero Aleatorio</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="jquery.js"></script>
+</head>
+
+<body>
+    <div id="titulo">Número Aleatorio</div>
+    <div id="bloquegeneral">
+        <div id="input">
+            <input type="text" name="entrada" id="entrada" placeholder="numero del uno al cien">
+        </div>
+        <div id="boton">
+            <input type="submit" name="submit" value="Enviar" id="submit" >
+        </div>
+        <div id="resultado">
+        </div>
+    </div>
+    <script>
+         $(function() {
+            console.log("Ready for jQuery");
+             var aleatorio = Math.floor(Math.random() * 101) ;
+             console.log(aleatorio);
+             var maximo = 0;
+             var contador = 0;
+             
+             $("#submit").click(function(){
+                var numero = parseInt($("#entrada").val());
+                console.log(numero);
+                 contador = contador+1;
+                 
+                 if (numero < aleatorio){
+                     $("#resultado").append("<p>Es Menor</p>")
+                     maximo = maximo+1;
+                     if(maximo > 4){
+                         $( "p" ).remove( ":contains('Es')" );
+                         $("#resultado").append("<p>Es Menor</p>");
+                         maximo = 1;
+                     }
+                 }
+                 else if (numero > aleatorio){
+                     $("#resultado").append("<p>Es Mayor</p>")
+                     maximo = maximo+1;
+                     if(maximo > 4){
+                         $( "p" ).remove( ":contains('Es')" );
+                         $("#resultado").append("<p>Es Mayor</p>");
+                         maximo = 1;
+                     }
+                 }
+                 else if(numero == aleatorio){
+                     $( "p" ).remove( ":contains('Es')" );
+                     $("#resultado").append("<h3>HAS ACERTADO!</h3>");
+                     $("#resultado").append("<p>Usastes "+contador+" intento</p>");
+                     $("#resultado").append("<img src='trofeo.jpg'/>")
+                     contador=0;
+                 }
+             });
+
+         });
+
+    </script>
+</body>
+</html>

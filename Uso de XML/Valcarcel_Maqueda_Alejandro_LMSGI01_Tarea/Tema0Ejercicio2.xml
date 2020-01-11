@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<marcadores>
+
+	<pagina marcador="01">
+		<nombre>Google</nombre>
+		<URL>http://www.google.es</URL>
+	</pagina>
+
+	<pagina marcador="02">
+		<nombre>Facebook</nombre>
+		<URL>http://www.facebook.com</URL>
+	</pagina>
+
+	<pagina marcador="03">
+		<nombre>twitter</nombre>
+		<URL>http://www.twitter.com</URL>
+	</pagina>
+
+	<pagina marcador="04">
+		<nombre>gmail</nombre>
+		<URL>http://mail.google.com</URL>
+	</pagina>
+
+	<pagina marcador="05">
+		<nombre>instagram</nombre>
+		<URL>http://www.instagram.com</URL>
+	</pagina>
+	
+</marcadores>

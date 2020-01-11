@@ -1,0 +1,1 @@
+Representar en una tabla el horario de la clase

@@ -1,0 +1,15 @@
+.claseH1{
+	background-color: black;
+	color: white;
+}
+
+
+.odd{
+	background-color: blue;
+	color: black;
+}
+
+.even{
+	background-color: grey;
+	color: white;
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<horariosvuelos>
+
+	<vuelo flightnumber="IB2426">
+		<aerolinea>Iberia</aerolinea>
+		<trayecto>SVQ-VLC</trayecto>
+		<origen>Sevilla</origen>
+		<destino>Valencia</destino>
+		<horadesalida>10:50h</horadesalida>
+		<horadellegada>11:50h</horadellegada>
+	</vuelo>
+
+	<vuelo flightnumber="RYR334">
+		<aerolinea>Ryanair</aerolinea>
+		<trayecto>STN-SVQ</trayecto>
+		<origen>Londres Stansted</origen>
+		<destino>Sevilla</destino>
+		<horadesalida>12:00h</horadesalida>
+		<horadellegada>15:05h</horadellegada>
+	</vuelo>
+
+	<vuelo flightnumber="ANE2589">
+		<aerolinea>Air Nostrum</aerolinea>
+		<trayecto>SVQ-MAD</trayecto>
+		<origen>Sevilla</origen>
+		<destino>Madrid</destino>
+		<horadesalida>13:00h</horadesalida>
+		<horadellegada>13:50h</horadellegada>
+	</vuelo>
+
+	<vuelo flightnumber="AA7785">
+		<aerolinea>American Airlines</aerolinea>
+		<trayecto>JFK-SVQ</trayecto>
+		<origen>Nueva York Jhon F.Kennedy</origen>
+		<destino>Sevilla</destino>
+		<horadesalida>14:15h</horadesalida>
+		<horadellegada>20:20h</horadellegada>
+	</vuelo>
+
+	<vuelo flightnumber="UPS250">
+		<aerolinea>UPS Cargo</aerolinea>
+		<trayecto>GTW-SVQ</trayecto>
+		<origen>Londres Gatwick</origen>
+		<destino>Sevilla</destino>
+		<horadesalida>18:00h</horadesalida>
+		<horadellegada>21:30h</horadellegada>
+	</vuelo>
+
+</horariosvuelos>

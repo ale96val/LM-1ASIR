@@ -1,0 +1,60 @@
+#galeria{
+    text-align: center;
+    font-family: fantasy;
+    color: dodgerblue;
+    font-size: 4em;
+}
+
+#foto{
+    position: relative;
+    margin: 0 auto;
+    width: 800px;
+    height: 500px;
+    border: 1px solid dodgerblue;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+}
+
+#botonatras{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 1px solid dodgerblue;
+    left: 20px;
+    top: 225px;  
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+#botonadelante{
+    position:absolute;
+    width: 50px;
+    height: 50px;
+    border: 1px solid dodgerblue;
+    right: 20px;
+    top: 225px;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+#botonatras img{
+    margin-top: 5px;
+    margin-left: 3px;
+    width: 40px;
+    height: 40px;
+}
+
+#botonadelante img{
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+#imagen{
+    width: 800px;
+    height: 500px;
+}

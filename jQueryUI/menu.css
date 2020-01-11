@@ -1,0 +1,30 @@
+.menuprincipal{
+    list-style: none;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-right: 20px;
+    background-color: green;
+    color: white;
+    border: 1px solid white;
+}
+
+.menusecundario{
+    list-style: none;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-right: 10px;
+    background-color: blue;
+    color: white;
+    border: 1px solid white;
+    
+}

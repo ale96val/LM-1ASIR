@@ -1,0 +1,117 @@
+#titulo{
+    color:chocolate;
+    font-size: 4em;
+    font-family: fantasy;
+    text-align: center;
+}
+
+#fondonegro{
+    width: 810px;
+    height: 520px;
+    background-color: #3D4144;
+    margin: 0 auto;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+   position:relative;
+}
+
+#marco{
+   position:absolute;
+    left:4px;
+    top:4px;
+    margin-top: 2px;
+    margin: 0 auto;
+    width: 790px;
+    height: 500px;
+    border: 1px dashed white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#objeto1{
+    width: 590px;
+    height: 500px;
+    float: left;
+}
+
+#objeto2{
+    width: 50px;
+    height: 500px;
+    float: left;
+}
+
+#objeto3{
+    width: 50px;
+    height: 500px;
+    float: left;
+}
+
+#objeto4{
+    width: 50px;
+    height: 500px;
+    float: left;
+}
+
+#objeto5{
+    width: 50px;
+    height: 500px;
+    float: left;
+}
+
+.texto{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    width: 50px;
+    height: 500px;
+    text-align: center;
+    font-size: 1.5em;
+    float: left;
+    border: 1px solid blue;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: orange;
+}
+
+#contenido{
+    width: 536px;
+    height: 500px;
+    float: left;
+}
+
+
+
+
+#features{
+    background-color: #BA5251;
+    color: white;
+}
+
+#design{
+    background-color: #BF8A46;
+    color: white;
+}
+
+#appstore{
+    background-color: #90B45C;
+    color: white;
+}
+
+#gallery{
+    background-color: #57A9B4;
+    color: white;
+}
+
+#techspec{
+    background-color: #B85D96;
+    color: white;
+}

@@ -1,0 +1,42 @@
+
+/* Body */
+body {}
+
+/* Headers */
+
+
+/* HR (Hard Rule = line) */
+
+/* Paragraphs */
+#primero{
+	font-family: Verdana;
+	color: blue;
+}
+
+.normal {font-family: Verdana; color: #756B6B;}
+
+.especial{border: solid; border-width: 1px; border-color: #FFA11B; background-color: #FFD088;}
+
+em{
+	background-color: #FFE89E;
+	font-style: normal;
+}
+
+span{
+	font-weight: bold;
+}
+/* Divs */
+
+/* Links */
+a:link     {font-family: Verdana; font-size: 17px; color: red; font-weight: normal;}
+
+a:visited  {color:yellow}
+a:hover    {color:black}
+a:active   {color:blue}
+
+/* Navigation */
+
+/* Classes used by all html elements */
+
+/* Ids */
+

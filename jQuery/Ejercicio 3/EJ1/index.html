@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+
+  </head>
+  <body>
+      <div id="menu">
+        <div id="desplegable">
+            <div id="imagen">
+                <img src="hi.png"/>
+            </div>
+            <div id="texto">
+                <ul>
+                    <li>HOLA</li>
+                    <li>Prueba</li>
+                    <li>DE</li>
+                    <li>Una</li>
+                    <li>Lista</li>
+                </ul>
+            </div>
+        </div>
+        <div id="menuboton">
+            <div id="boton1">
+                <img id="imagenflecha" src="flechaizquierda.png"/>
+            </div>
+            <div id="boton2">
+                <img id="imagenflecha" src="flechaderecha.png"/>
+            </div>
+        </div>
+      </div>
+
+      <script type="text/javascript">
+        //This part is executed only when all the document is loaded
+        $(function() {
+            console.log("Ready for jQuery");
+            $("#boton2").hide();
+            $("#boton1").click(function(){
+                $("#desplegable").hide(500)
+                $(this).hide()
+                $("#boton2").show()
+                        });
+            $("#boton2").click(function(){
+                $("#desplegable").show(500)
+                $(this).hide()
+                $("#boton1").show()
+                        });
+        });
+      </script>
+  </body>
+</html>

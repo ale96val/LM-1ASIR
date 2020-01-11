@@ -1,0 +1,91 @@
+#menu {
+    margin-top: 60px;
+    margin-left: 0px;
+    width: 200px;
+    height: 500px;
+    -webkit-border-top-right-radius: 25px;
+    -webkit-border-bottom-right-radius: 25px;
+    -moz-border-radius-topright: 25px;
+    -moz-border-radius-bottomright: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+#desplegable{
+    float: left;
+    width: 98px;
+    height: 500px;
+    border: 1px solid blue;
+}
+
+#desplegable ul{
+    padding: 18px;
+}
+
+#desplegable ul li{
+    margin-top: 20px;
+}
+
+#menuboton{
+    float: left;
+    width: 98px;
+    height: 500px;
+    border: 1px solid red;
+    -webkit-border-top-right-radius: 25px;
+    -webkit-border-bottom-right-radius: 25px;
+    -moz-border-radius-topright: 25px;
+    -moz-border-radius-bottomright: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+#boton1{
+     width: 80px;
+    height: 60px;
+    background-color:aqua;
+    margin-left: 8px;
+    margin-top: 60px;
+}
+
+#boton2{
+     width: 80px;
+    height: 60px;
+    background-color:aqua;
+    margin-left: 8px;
+    margin-top: 60px;
+}
+
+#boton1 img{
+    width: 80px;
+    height: 60px;
+}
+
+#boton2 img{
+    width: 80px;
+    height: 60px;
+}
+
+#imagen{
+    width: 80px;
+    height: 60px;
+    background-color:aqua;
+    margin-left: 8px;
+    margin-top: 60px;
+}
+
+#imagen img{
+    width: 80px;
+    height: 60px;
+}
+
+#texto{
+    width: 80px;
+    height: 300px;
+    margin-left: 8px;
+    margin-top: 40px;
+}
+
+body{
+    margin-left: 0px;
+}
+

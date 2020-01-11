@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="Spanish">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+
+  </head>
+  <body>
+      <div id="galeria">GALERIA</div>
+      <div id="foto">
+              <div id="botonatras"><img src="flecha.png"></div>
+              <div id="botonadelante"><img src="flecha2.png"></div>
+          <img id="imagen" src="imagen1.jpg">
+      </div>
+
+      <script type="text/javascript">
+        $(function() {
+            console.log("Ready for jQuery");
+            nf = 0;
+            vf=["imagen1.jpg","imagen2.jpg","imagen3.jpg","imagen4.jpg"];
+            $("#botonatras").hide();
+                           
+        $("#botonadelante").click(function(){
+            nf=nf+1;
+            $("#imagen").attr("src",vf[nf]);
+            if(nf==3){
+                $("#botonadelante").hide()
+            }
+            else{
+                $("#botonadelante").show()
+            }
+            if(nf==0){
+                $("#botonatras").hide()
+            }
+            else{
+                $("#botonatras").show()
+            }
+        });
+        $("#botonatras").click(function(){
+            nf=nf-1;
+            $("#imagen").attr("src",vf[nf]);
+            if(nf==0){
+                $("#botonatras").hide()
+            }
+            else{
+                $("#botonatras").show()
+            }
+            if(nf==3){
+                $("#botonadelante").hide()
+            }
+            else{
+                $("#botonadelante").show()
+            }
+        });
+        });
+       
+        
+      </script>
+  </body>
+</html>

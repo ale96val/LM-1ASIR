@@ -1,0 +1,38 @@
+table { 
+  border: 1px solid blue;
+  border-collapse: collapse; 
+}
+
+td, th{
+    border: 1px solid blue;
+}
+
+
+td {
+  margin: 30px;
+  padding: 30px;
+}
+
+#botones{
+    margin-top: 25px;
+}
+
+#anadir{
+    float: left;
+    margin-left: 80px;
+}
+
+#borrar{
+    float:left;
+    margin-left: 20px;
+}
+
+#rellenar{
+    float:left;
+    margin-left: 20px;
+}
+
+#input{
+    margin-bottom: 20px;
+    margin-left: 100px;
+}

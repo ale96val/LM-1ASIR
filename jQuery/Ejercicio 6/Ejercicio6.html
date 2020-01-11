@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="Spanish">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <script src="jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="ejercicio6.css">
+</head>
+
+<body>
+    <div id="cabecera">
+        <div id="titulo">
+            <h3>Controles Generales</h3>
+        </div>
+        <div id="botones">
+            <button id="mostrarocultartodo">OCULTAR/MOSTRAR</button>
+            <button id="resetear">RESETEAR</button>
+        </div>
+    </div>
+    <div id="cuerpo">
+        <div id="cuerporojo">
+            <div class="botones">
+                <button class="ocultarmostrar">OCULTAR/MOSTRAR</button>
+                <button class="cincuentaP">+50</button>
+                <button class="cincuentaN">-50</button>
+            </div>
+            <div class="bloque" id="rojo"></div>
+        </div>
+        <div id="cuerpoazul">
+            <div class="botones">
+                <button class="ocultarmostrar">OCULTAR/MOSTRAR</button>
+                <button class="cincuentaP">+50</button>
+                <button class="cincuentaN">-50</button>
+            </div>
+            <div class="bloque" id="azul"></div>
+        </div>
+        <div id="cuerpoverde">
+            <div class="botones">
+                <button class="ocultarmostrar">OCULTAR/MOSTRAR</button>
+                <button class="cincuentaP">+50</button>
+                <button class="cincuentaN">-50</button>
+            </div>
+            <div class="bloque" id="verde"></div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(function() {
+            console.log("Ready for jQuery");
+            $("#mostrarocultartodo").click(function(event) {
+                $(".bloque").toggle();
+            });
+            c=0;
+            $(".ocultarmostrar").click(function(event) {
+                $(this).parent().siblings().toggle();
+            });
+            $(".cincuentaP").click(function(event){
+                $(this).parent().next().animate({
+                width:"+=50"
+            },1000);
+                c=c+1;
+                if (c>=6){
+                    $(".cincuentaP").hide()
+                }
+                else{
+                    $(".cincuentaP").show()
+                }
+                if (c<=-8){
+                    $(".cincuentaN").hide()
+                }
+                else{
+                    $(".cincuentaN").show()
+                }
+            });
+            $(".cincuentaN").click(function(event){
+                $(this).parent().next().animate({
+                width:"-=50"
+            },1000);
+                c=c-1
+                if (c>=6){
+                    $(".cincuentaP").hide()
+                }
+                else{
+                    $(".cincuentaP").show()
+                }
+                if (c<=-8){
+                    $(".cincuentaN").hide()
+                }
+                else{
+                    $(".cincuentaN").show()
+                }
+            });
+            $("#resetear").click(function(event){
+                $(".bloque").animate({
+                    width: 400
+                },1000)
+                c=0;
+            });
+        });
+    </script>
+</body>
+</html>

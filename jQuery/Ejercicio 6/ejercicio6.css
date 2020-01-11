@@ -1,0 +1,83 @@
+#cabecera{
+    margin-right: 460px;
+    margin-top: 40px;
+    float: right;
+     margin-bottom: 40px;
+}
+
+#cuerpo{
+    width: 1300px;
+    clear: right;
+    margin: 0px auto;
+
+}
+
+#titulo{
+    float: left;
+    background-color: springgreen;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#titulo h3{
+    font-size: 2em;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.botones {
+    width: 200px;
+    clear:left;
+    float: left;
+    border-right: 2px solid black;
+    margin-right: 40px;
+}
+
+.bloque{
+    width: 400px;
+    height: 100px;
+    float: left;
+    
+}
+
+#cuerporojo{
+    height: 100px;
+    width: 1000px;
+    margin-bottom: 20px;
+}
+
+#rojo{
+    background-color: red;
+}
+
+#azul{
+    background-color: blue;
+}
+
+#verde{
+    background-color: green;
+}
+
+#cuerpoazul{
+    height: 100px;
+    width: 1000px;
+    margin-bottom: 20px;
+}
+
+#cuerpoverde{
+     height: 100px;
+    width: 1000px
+}
+
+#cuerpo button{
+    margin-top: 6px;
+    margin-bottom: 6px;
+    width: 150px;
+}
+
